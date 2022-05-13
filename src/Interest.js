@@ -107,7 +107,29 @@ function Interest(props) {
 
 			<div className={appstyles.container2}>
 			{/*  <input className={appstyles.btn} type="button" value="Play" onClick={playSound}></input>*/}
-				
+				 <AceEditor
+            style={{
+                height: '100vh',
+                width: '100%',
+            }}
+            placeholder='Start Coding'
+            mode='javascript'
+            theme='monokai'
+            name='basic-code-editor'
+            onChange={currentCode => setCode(currentCode)}
+            fontSize={18}
+            showPrintMargin={true}
+            showGutter={true}
+            highlightActiveLine={true}
+            value={code}
+            setOptions={{
+                enableBasicAutocompletion: true,
+                enableLiveAutocompletion: true,
+                enableSnippets: true,
+                showLineNumbers: true,
+                tabSize: 4,
+            }}
+        />
 				
 			</div>
 		
