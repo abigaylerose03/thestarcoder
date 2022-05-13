@@ -1,0 +1,169 @@
+.container {
+	background-image: url('/public/stardraft1.png');
+	height: 120vh;
+	position: relative;
+	bottom: 20px;
+	overflow-x: hidden;
+}
+
+.container2 {
+	background-image: url('/public/stardraft2.png');
+	background-color: '#F4EDEA';
+	height: 100vh;
+	position: relative;
+	bottom: 21px;
+}
+
+/* blue gradient text */
+.main {
+	display: flex;
+	overflow: hidden;
+	background: linear-gradient(to right, #1A2980 0%, #26D0CE  51%, #1A2980  100%);
+
+	 -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	text-align:  center;
+	justify-content: center;
+	position: relative;
+	top: 40vh;
+}
+
+.mainemoji {
+	position: relative;
+	overflow: hidden;
+	font-size: 30px;
+	top: 33.4vh;
+	left: 74rem;
+
+}
+
+#editor {
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    
+}
+
+/* HOME PAGE nav bar */
+ul {
+	list-style-type: none;
+	margin-top: 10;
+	padding: 0;
+	overflow: hidden;
+  	background-color: #F9F1ee;
+  	-box-shadow: 0 0 18px rgba(0, 0, 0, 0.9);
+  	  border-radius: 8px;
+ 
+}
+/* HOME PAGE elements */
+
+ul li {
+	display: inline;
+	position: relative;
+}
+li a {
+	position: relative;
+	display: inline;
+	float: right;
+	font-size: 1rem;
+	text-decoration: none;
+	font-color: black;
+	padding:  20px;
+	color: #12263A;
+  	font-weight: bolder;
+
+}
+
+/* HOME PAGE star logoo */
+ul img {
+	float: left;
+	position: absolute;
+	width: 70px;
+	height: 70px;
+}
+
+.btn {
+	width: 100px;
+	height: 100px;
+}
+
+button, button:focus{
+  outline: none;
+  background: transparent;
+  border: 1px solid transparent;
+}
+/*.logo {
+
+	width: 10px;
+	height: 20px;
+
+}*/
+ul .logoname {
+	display: flex;
+	position: relative;
+	top: 20px;
+	/*margin-left: 10px;*/
+	font-weight: bolder;
+	font-size: 1.2rem;
+	float: right;
+	position: relative;
+	right: 102rem;
+	background: linear-gradient(to right, #1A2980 0%, #26D0CE  51%, #1A2980  100%);
+
+	 -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+/* login/signup box */
+.box {
+	width: 620px;
+	height: 700px;
+	position: relative;
+    top: 25%;
+    left: 40%;
+    margin: -128px -138.5px;
+    background: #f0f0fd;
+    background: rgba(240,240,253,0.90);
+    padding: 22px 32px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    -moz-box-shadow: 0 0 18px rgba(0, 0, 0, 0.9);
+    -webkit-box-shadow: 0 0 18px rgba(0, 0, 0, 0.9);
+    -box-shadow: 0 0 18px rgba(0, 0, 0, 0.9);
+
+}
+
+.login .misc {
+    position: absolute;
+    top: 103%;
+    left: 0;
+    width: 100%;
+}
+
+.headertext {
+		background: linear-gradient(to right, #1A2980 0%, #26D0CE  51%, #1A2980  100%);
+
+	 -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	font-weight: bolder;
+	font-size: 3rem;
+	font-family: 'Arial';
+}
+
+.homeinput {
+	display: flex;
+	margin-left: 15vh;
+	margin-bottom: 2rem;
+	width: 250px;
+	height: 36px;
+
+}
+
+/*li {
+	background-color: white;
+}*/

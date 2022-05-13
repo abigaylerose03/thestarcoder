@@ -1,0 +1,24 @@
+.default {
+	width: 140px;
+	height: 35px;
+	border-radius: 50px;
+	border: '9px solid grey';
+	text-align: center;
+	justify-content: 'center';
+	position: 'relative';
+	top: '50vh';
+	left: '97vh';
+}
+
+.pressedBtn {
+	width: 140px;
+	height: 35px;
+	border-radius: 50px;
+	color: #12263A;
+	border: '2px solid grey';
+	text-align: center;
+	justify-content: 'center';
+	position: 'relative';
+	top: '50vh';
+	left: '97vh';
+}

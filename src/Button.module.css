@@ -1,0 +1,100 @@
+/* primary color pallet: https://coolors.co/12263a-06bcc1-c5d8d1-f4edea-f4d1ae; */
+
+
+.button {
+	position: relative;
+	top: 12rem;
+	display: grid;
+	align-content: center;
+	margin-bottom: 4rem;
+	width: 200px;
+	height: 35px;
+	border-radius: 50px;
+	border: solid 2px transparent;
+	text-align: 'center';
+	letter-spacing: 1px;
+	font-family: sans-serif;
+	font-weight: bolder;
+	font-size: 1rem;
+/*	background-color: #06BCC1;*/
+	margin-left:150px;
+
+
+
+}
+/*.button:hover {
+	opacity: 0.2;
+	transform: translateY(5px);
+}*/
+/* home page etc */
+.primarybtn {
+	position: relative;
+	top: 12rem;
+	display: grid;
+	align-content: center;
+	margin-bottom: 4rem;
+	width: 200px;
+	height: 35px;
+	border-radius: 50px;
+	border: solid 2px transparent;
+	text-align: 'center';
+	letter-spacing: 1px;
+	font-family: sans-serif;
+	font-weight: bolder;
+	font-size: 1rem;
+/*	background-color: #06BCC1;*/
+	margin-left:150px;
+   /* position: absolute;
+	top: 20rem;*/
+	font-family: sans-serif;
+	font-weight: bolder;
+	font-size: 1rem;
+	width: 220px;
+	border: solid 2px transparent;
+	text-align: 'center';
+	height: 45px;
+	background: rgb(6,188,193);
+	background: radial-gradient(circle, rgba(6,188,193,1) 0%, rgba(18,38,58,1) 100%);
+	  box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #12263A,  #06BCC1);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  box-shadow: 2px 1000px 1px #fff inset;
+
+}
+
+.normalbtn {
+	/*position: relative;
+	top: 20vh;
+	left: 80vh;*/
+	width: 240px;
+	height: 40;
+  color: black;
+  box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+  background-image:   linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(to right, #DC2424 0%, #4A569D  51%, #DC2424  100%);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  box-shadow: 2px 1000px 1px #fff inset;
+}
+
+.textbtn {
+	display: inline;
+	/*position: relative;
+	top: 20rem;*/
+	/* removes background */
+  	background-color: transparent;
+    font-size: 10px;
+
+    /*position: absolute;
+    top: 20rem;*/
+}
+
+/* HOVER STYLES */
+.primarybtn:hover {
+  box-shadow: none;
+  color: white;
+}
+
+.textbtn:hover {
+	transform: translateY(50%);
+}
