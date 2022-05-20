@@ -1,3 +1,106 @@
+.App{
+	max-height: 100vh;
+	width: 100%;
+	overflow-y: hidden;
+	background-color: #474747;
+}
+.main{
+	display: flex;
+	height: calc(100vh - 50px);
+}
+.leftcontainer{
+	position: relative;
+	flex: 60%;
+	height: calc(400vh - 50px);
+}
+.rightcontainer{
+	flex: 40%;
+	height: calc(100vh - 50px);
+	display: flex;
+	flex-direction: column;
+	background-color: #242424;
+	border-left: 3px solid #1f65e6;
+	padding: 5px;
+}
+.inputbox{
+	flex: 50%;
+}
+.inputbox textarea{
+	font-size: 16px;
+	color: white;
+}
+.spinnerbox{
+	flex: 50%;
+	background-color: #242424;
+	overflow-y: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.spinnerbox img{
+width: 200px;
+}
+.outputbox{
+flex: 50%;
+background-color: #242424;
+overflow-y: auto;
+color: white;
+position: relative;
+}
+.clearbtn{
+position: absolute;
+bottom: 14px;
+right: 18px;
+width: 80px;
+height: 40px;
+font-size: 22px;
+font-weight: bold;
+color: white;
+background-color: #1f65e6;
+border: none;
+border-radius: 4px;
+transition: 0.3s;
+cursor: pointer;
+}
+.outputbox pre{
+font-size: 15px;
+white-space: pre-wrap;
+}
+h4{
+color: #afec3f;
+}
+#codeinp{
+box-sizing: border-box;
+width: 100%;
+height: 100%;
+resize: none;
+background-color: #242424;
+color: whitesmoke;
+padding: 5px;
+}
+#codeinp:focus{
+outline: none;
+}
+.runbtn{
+position: absolute;
+bottom: 10px;
+right: 18px;
+width: 80px;
+height: 40px;
+font-size: 22px;
+font-weight: bold;
+background-color: #afec3f;
+border: none;
+border-radius: 4px;
+transition: 0.3s;
+cursor: pointer;
+}
+.runbtn:active{
+background-color: #6e9427;
+}
+
+
+
 .container {
 	background-image: url('/public/stardraft1.png');
 	height: 120vh;

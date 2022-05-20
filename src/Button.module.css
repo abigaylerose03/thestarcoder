@@ -1,6 +1,38 @@
 /* primary color pallet: https://coolors.co/12263a-06bcc1-c5d8d1-f4edea-f4d1ae; */
 
+.runbtnn {
+	position: absolute;
+/*	bottom: 10px;*/
+	right: 18px;
+	width: 100px;
+	height: 100px;
+	font-size: 22px;
+	font-weight: bold;
+	background-color: cyan;
+	border: none;
+	border-radius: 4px;
+	transition: 0.3s;
+	cursor: pointer;
+}
+.runbtnn:active{
+	background-color: #6e9427;
+}
 
+.clearbtn{
+	position: absolute;
+	bottom: 14px;
+	right: 18px;
+	width: 100px;
+	height: 60px;
+	font-size: 22px;
+	font-weight: bold;
+	color: white;
+	background-color: #1f65e6;
+	border: none;
+	border-radius: 4px;
+	transition: 0.3s;
+	cursor: pointer;
+}
 .button {
 	position: relative;
 	top: 12rem;

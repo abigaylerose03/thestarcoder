@@ -1,0 +1,33 @@
+.runbtn {
+	position: relative;
+	top: 86vh;
+	right: 90vh;
+	width: 100px;
+	height: 90px;
+	font-size: 22px;
+	font-weight: bold;
+	background-color: cyan;
+	border: none;
+	border-radius: 4px;
+	transition: 0.3s;
+	cursor: pointer;
+}
+.runbtn:active{
+	background-color: #6e9427;
+}
+
+.clearbtn{
+	position: absolute;
+	bottom: 14px;
+	right: 18px;
+	width: 100px;
+	height: 60px;
+	font-size: 22px;
+	font-weight: bold;
+	color: white;
+	background-color: #1f65e6;
+	border: none;
+	border-radius: 4px;
+	transition: 0.3s;
+	cursor: pointer;
+}
